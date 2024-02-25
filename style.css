@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.product-detail {
+    width: 60%;
+    margin: auto;
+}
+
+.price-selection {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.price-selection label,
+.price-selection .price {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.story {
+    background-color: #3a5a40;
+    color: white;
+    padding: 20px;
+    /* Add more styles for layout and typography */
+}
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header and Footer styles */
+/* ... (Include styles for nav.html and footer.html) ... */
+
+.hero-wholesale {
+    background-image: url('path-to-hero-image.jpg'); /* Replace with the path to your image */
+    background-size: cover;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.bestsellers {
+    padding: 40px;
+}
+
+.bestsellers h2 {
+    margin-bottom: 20px;
+}
+
+.our-story, .our-cocoa {
+    padding: 40px;
+    background-color: #333;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.our-story button, .our-cocoa button {
+    background-color: #6b8f71;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Add additional styles for layout, typography, and responsive design */
+
+/* Footer styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
